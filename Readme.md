@@ -10,13 +10,13 @@ pytorch, matplotlib
 ********************************************************************************
 ```python
 
-    from matplotlib.image import imread
+        from matplotlib.image import imread
 	import matplotlib.pyplot as plt
 	from kmeans import KMeans
 	import torch
 
 	#Importing the image file
-    image = imread('images/IMG_0015.jpg')
+	image = imread('images/IMG_0015.jpg')
 	X = image.reshape(-1, 3)
 	X_t = torch.from_numpy(X).float()
 
