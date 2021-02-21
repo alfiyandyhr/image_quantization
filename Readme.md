@@ -8,7 +8,7 @@ pytorch, matplotlib
 
 # Usage
 ********************************************************************************
-.. code:: python
+```python
 
     from matplotlib.image import imread
 	import matplotlib.pyplot as plt
@@ -30,6 +30,6 @@ pytorch, matplotlib
 	new_img = segmented_img.numpy()
 
 	plt.imsave('images/5.jpg',new_img.astype('uint8'))
-
+```
 # Reference
 Aurélien Géron. 2017. Hands-on machine learning with Scikit-Learn and TensorFlow: concepts, tools, and techniques to build intelligent systems. " O'Reilly Media, Inc.".
