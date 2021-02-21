@@ -31,5 +31,9 @@ pytorch, matplotlib
 
 	plt.imsave('images/5.jpg',new_img.astype('uint8'))
 ```
+# Results
+<p float="left">
+  <img src="/images/IMG_0015.jpg" width="49%"/>
+</p>
 # Reference
 Aurélien Géron. 2017. Hands-on machine learning with Scikit-Learn and TensorFlow: concepts, tools, and techniques to build intelligent systems. " O'Reilly Media, Inc.".
