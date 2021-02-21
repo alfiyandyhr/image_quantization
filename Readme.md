@@ -32,8 +32,26 @@ pytorch, matplotlib
 	plt.imsave('images/5.jpg',new_img.astype('uint8'))
 ```
 # Results
-<p float="left">
+
+### Original Image
+<p float="center">
   <img src="/images/IMG_0015.jpg" width="49%"/>
 </p>
+
+### Clustered into 8 clusters
+<p float="center">
+  <img src="/images/8.jpg" width="49%"/>
+</p>
+
+### Clustered into 5 clusters
+<p float="center">
+  <img src="/images/5.jpg" width="49%"/>
+</p>
+
+### Clustered into 2 clusters
+<p float="center">
+  <img src="/images/2.jpg" width="49%"/>
+</p>
+
 # Reference
 Aurélien Géron. 2017. Hands-on machine learning with Scikit-Learn and TensorFlow: concepts, tools, and techniques to build intelligent systems. " O'Reilly Media, Inc.".
