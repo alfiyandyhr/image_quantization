@@ -1,10 +1,10 @@
 Image Quantization using KMeans Clustering
 ==============================================================================
 
-[Quantization](https://en.wikipedia.org/wiki/Quantization_(image_processing)) in image processing is a compression technique achieved by compressing a range of values of colors to a single quantum value. In this code, the quantization process is done using KMeans clustering algorithm. The theory behind this code is derived from the reference book listed at the bottom of the page, the difference is that the code is manually implemented in pytorch instead of using sklearn library.
+[Quantization](https://en.wikipedia.org/wiki/Quantization_(image_processing)) in image processing is a compression technique achieved by compressing a range of values of colors to a single quantum value. In this code, the quantization process is done using KMeans clustering algorithm. The theory behind this code is derived from the reference book listed at the bottom of the page, the difference is that the code is manually implemented in PyTorch instead of using sklearn library.
 
 # Dependencies
-pytorch, matplotlib
+PyTorch, matplotlib
 
 # Usage
 ********************************************************************************
